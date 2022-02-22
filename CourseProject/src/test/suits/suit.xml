@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="4" verbose="1" name="Course Project Test Suit"
+       annotations="JDK" parallel="tests">
+
+    <test name="Check Out Test">
+        <classes>
+            <class name="com.selenium.sourcedemo.tests.CheckOutTest"/>
+        </classes>
+    </test>
+    <test name="Add Items Test">
+        <classes>
+            <class name="com.selenium.sourcedemo.tests.ProductTestAddItemsToCart"/>
+        </classes>
+    </test>
+</suite>

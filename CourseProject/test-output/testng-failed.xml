@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CourseProject(failed)">
+    <classes>
+      <class name="com.selenium.sourcedemo.tests.unsuccessfulLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="unsuccessLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.selenium.sourcedemo.tests.unsuccessfulLogin -->
+    </classes>
+  </test> <!-- CourseProject(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
